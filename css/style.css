@@ -1,0 +1,1230 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import "https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700";
+@import "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700";
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+#sidebar {
+    min-width: 20%;
+    max-width: 20%;
+    height: 100vh;
+    background: #005B82;
+    color: #fff;
+    transition: all 0.3s;
+    position: fixed;
+    float: left;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0082BB; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0082BB; 
+}
+
+#sidebar .sidebar-header {
+    padding: 50px 20px 50px 20px;
+    background: #005B82;
+    font-family: 'Raleway';
+}
+
+#sidebar img#mylogo {
+    /*font-size: 25px;*/
+    padding-left: 50px;
+}
+
+#sidebar ul.components {
+    padding: 0px 0;
+}
+
+
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a.dropdown-toggle {
+    padding: 10px 10px 10px 70px;
+    font-size: 0.9em;
+    display: block;
+    color : #ffffff;
+    font-family: 'Raleway';
+    /*width: 50px;*/
+}
+
+#sidebar ul li a:hover {
+    color: #005B82;
+    background: #fff;
+    text-decoration: none;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #005B82;
+    text-decoration: none;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+#sidebar ul. li a.dropdown-toggle {
+    font-size: 0.8em;
+    padding-left: 100px;
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    background: #005B82;
+    padding: 10px 10px 10px 100px;
+    color: #ffffff;
+    font-family: 'Poppins';
+    display: inline-block;
+    width: 100%;
+}
+
+ul ul a#showing {
+    font-weight: bold;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 80%;
+    /*float: left;*/
+    padding: 50px;
+    min-height: 100vh;
+    float: right;
+    /*margin-left: 200px;*/
+    /*transition: all 0.3s;*/
+}
+
+.navbar.navbar-expand-lg {
+    /*margin-left: 330px;*/
+    width: 95%;
+}
+
+div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
+    color: #000000;
+}
+
+.container-fluid ul.social li {
+    display: inline-block;
+    position: relative;
+}
+
+.container-fluid ul.social li a {
+    color: #005B82;
+    font-size: 17px;
+    padding: 0px 8px 0px 8px;
+}
+
+.container-fluid ul.social li a:hover {
+    text-decoration: none;
+    color: #0082BB;
+}
+
+.container-fluid ul.social {
+    float: right;
+    padding-top: 10px;
+}
+
+
+.container-fluid .search-container {
+    font-size: 17px;
+    padding-top: 10px;
+    color: #005B82;
+}
+
+.container-fluid .search-container form {
+    float: left;
+}
+
+.container-fluid .search-container input[type=text] {
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid #666666;
+    padding-left: 10px;
+}
+
+::placeholder {
+    color: #c4c4c4;
+    /*padding-left: 10px;*/
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+
+/* ---------------------------------------------------
+    RESOURCES PAGE
+----------------------------------------------------- */
+#content #Respage {
+    margin-top: 100px;
+    font-family: 'Raleway';
+    float: right;
+    margin-right: 220px;
+}
+
+.scroller, .pageInfo {
+    display: inline-grid;
+}
+
+#content .pageInfo {
+    margin-bottom: 200px;
+}
+
+#content .pageInfo #heading {
+    margin-top: -60px;
+}
+
+#content .pageInfo #heading h2#bigWord {
+    font-size: 150px;
+    opacity: 0.1;
+    color: #005B82;
+}
+
+#content .pageInfo #heading h2#smallWord {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -90px;
+    margin-left: 15px;
+     color: #005B82;
+}
+
+#content .pageInfo #overview {
+    margin-left: 15px;  
+}
+
+#content .pageInfo #overview p#welcome {
+    margin-top: 50px;
+    font-size: 20px;
+    width: 600px;
+    color: #666666;
+}
+
+
+#content .pageInfo #overview ul {
+    list-style: none;
+    padding-left: 0px;
+    width: 750px;
+}
+
+#content .pageInfo #overview ul li {
+    padding: 5px 5px 5px 0px;
+    line-height: 25px;
+}
+
+#content .pageInfo #tools a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#content .pageInfo #tools {
+    margin-left: 15px;
+}
+
+#content .pageInfo #tools h1 {
+    margin-top: 50px;
+}
+
+#content .pageInfo #tools img {
+    width: 60px;
+    height: 60px;
+}
+
+#content .pageInfo #tools p.name {
+    padding: 0px 0px 0px 15px;
+    color: #666666;
+}
+
+#content .pageInfo #tools p.name, img {
+    display: inline-block;
+}
+
+#content .pageInfo #link {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #link p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #link ul {
+    list-style: none;
+    padding-left: 0px;
+    width: 750px;
+}
+
+#content .pageInfo #link ul li {
+    padding: 5px 5px 5px 0px;
+    line-height: 25px;
+}
+
+#content .pageInfo #using {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #using p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #using ul {
+    list-style: none;
+    padding-left: 0px;
+    width: 750px;
+}
+
+#content .pageInfo #using ul li {
+    padding: 5px 5px 5px 0px;
+    line-height: 25px;
+}
+
+#content .pageInfo #using a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#content .pageInfo #system {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #system p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #help {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #help p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+
+
+
+
+/* ---------------------------------------------------
+    TIPS PAGE
+----------------------------------------------------- */
+#content #Tipspage {
+    margin-top: 100px;
+    font-family: 'Raleway';
+    float: right;
+    margin-right: 220px;
+}
+
+#content .pageInfo #vision a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#content .pageInfo #vision {
+    margin-left: 15px;
+}
+
+#content .pageInfo #vision h1 {
+    margin-top: 50px;
+}
+
+#content .pageInfo #vision p {
+    width: 845px;
+}
+
+#content .pageInfo #know {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #know h3 {
+    color: #595959;
+}
+
+#content .pageInfo #know p {
+    font-size: 15px;
+    width: 845px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #using {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #using p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #using ul {
+    list-style: none;
+    padding-left: 0px;
+    width: 750px;
+}
+
+#content .pageInfo #using ul li {
+    padding: 5px 5px 5px 0px;
+    line-height: 25px;
+}
+
+#content .pageInfo #using a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#content .pageInfo #system {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #system p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #help {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #help p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+
+/* ---------------------------------------------------
+    CORE PAGE
+----------------------------------------------------- */
+#content #Corepage {
+    margin-top: 100px;
+    font-family: 'Raleway';
+    float: right;
+    margin-right: 220px;
+}
+
+#content .pageInfo #vision a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#content .pageInfo #vision {
+    margin-left: 15px;
+}
+
+#content .pageInfo #vision h1 {
+    margin-top: 50px;
+}
+
+#content .pageInfo #vision p {
+    width: 845px;
+}
+
+#content .pageInfo #know {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #know h3 {
+    color: #595959;
+}
+
+#content .pageInfo #know p {
+    font-size: 15px;
+    width: 845px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #using {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #using p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #using ul {
+    list-style: none;
+    padding-left: 0px;
+    width: 750px;
+}
+
+#content .pageInfo #using ul li {
+    padding: 5px 5px 5px 0px;
+    line-height: 25px;
+}
+
+#content .pageInfo #using a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#content .pageInfo #system {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #system p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #help {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #help p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+
+/* ---------------------------------------------------
+    DESIGN PAGE
+----------------------------------------------------- */
+#content #Designpage {
+    margin-top: 100px;
+    font-family: 'Raleway';
+    float: right;
+    margin-right: 220px;
+}
+
+#content .pageInfo #feedback a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#content .pageInfo #feedback {
+    margin-left: 15px;
+}
+
+#content .pageInfo #feedback h1 {
+    margin-top: 50px;
+}
+
+#content .pageInfo #feedback p {
+    width: 845px;
+}
+
+#content .pageInfo #feedback ul {
+    list-style: none;
+    padding-left: 0px;
+    width: 750px;
+}
+
+#content .pageInfo #feedback ul li {
+    padding: 3px 3px 3px 0px;
+    line-height: 15px;   
+}
+
+#content .pageInfo #secondaryContent {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #secondaryContent h3 {
+    color: #595959;
+}
+
+#content .pageInfo #secondaryContent p {
+    font-size: 15px;
+    width: 845px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #secondaryContent ul {
+    list-style: none;
+    padding-left: 0px;
+    width: 750px;
+}
+
+#content .pageInfo #secondaryContent ul li {
+    padding: 5px 5px 5px 0px;
+    line-height: 25px;
+}
+
+#content .pageInfo #whatsNecessary {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #whatsNecessary p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #whatsNecessary ul {
+    list-style: none;
+    padding-left: 0px;
+    width: 750px;
+}
+
+#content .pageInfo #whatsNecessary ul li {
+    padding: 5px 5px 5px 0px;
+    line-height: 25px;
+}
+
+#content .pageInfo #whatsNecessary a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#content .pageInfo #prevention {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #prevention p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #prevention ul {
+    list-style: none;
+    padding-left: 0px;
+    width: 750px;
+}
+
+#content .pageInfo #prevention ul li {
+    padding: 5px 5px 5px 0px;
+    line-height: 25px;   
+}
+
+#content .pageInfo #help {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #help p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+
+/* ---------------------------------------------------
+    ACCESS PAGE
+----------------------------------------------------- */
+#content #Accesspage {
+    margin-top: 100px;
+    font-family: 'Raleway';
+    float: right;
+    margin-right: 220px;
+}
+
+#content .pageInfo #vision a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#content .pageInfo #vision {
+    margin-left: 15px;
+}
+
+#content .pageInfo #vision h1 {
+    margin-top: 50px;
+}
+
+#content .pageInfo #vision p {
+    width: 845px;
+}
+
+#content .pageInfo #know {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #know h3 {
+    color: #595959;
+}
+
+#content .pageInfo #know p {
+    font-size: 15px;
+    width: 845px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #using {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #using p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #using ul {
+    list-style: none;
+    padding-left: 0px;
+    width: 750px;
+}
+
+#content .pageInfo #using ul li {
+    padding: 5px 5px 5px 0px;
+    line-height: 25px;
+}
+
+#content .pageInfo #using a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#content .pageInfo #system {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #system p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #help {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #help p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+
+/* ---------------------------------------------------
+    GRID PAGE
+----------------------------------------------------- */
+#content #Gridpage {
+    margin-top: 100px;
+    font-family: 'Raleway';
+    float: right;
+    margin-right: 120px;
+}
+
+#content .pageInfo #devices a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#content .pageInfo #devices {
+    margin-left: 15px;
+}
+
+#content .pageInfo #devices h1 {
+    margin-top: 50px;
+}
+
+#content .pageInfo #devices p {
+    width: 900px;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #005B82;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #0082BB;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 10px 20px;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.tabcontent, .tablink {
+}
+
+#Home {background-color: #ffffff;}
+#News {background-color: #ffffff;}
+#Contact {background-color: #ffffff;}
+#About {background-color: #ffffff;}
+
+#Home img {
+    width: 880px;
+    height: 500px;
+    padding-bottom: 20px;
+}
+
+#News img {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#Contact img {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#About img {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#content .pageInfo #know {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #know h3 {
+    color: #595959;
+}
+
+#content .pageInfo #know p {
+    font-size: 15px;
+    width: 845px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #know table thead {
+    border-bottom: 1px solid #444444;
+}
+
+#content .pageInfo #know table thead tr th  {
+    color: #666666;
+    padding: 10px 30px 10px 10px;
+    font: 16px;
+}
+
+#content .pageInfo #know table tbody tr th  {
+    font-weight: normal;
+    color: #666666;
+    padding: 10px 30px 10px 10px;
+    font: 16px;
+}
+
+#content .pageInfo #using {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #using p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #using ul {
+    list-style: none;
+    padding-left: 0px;
+    width: 750px;
+}
+
+#content .pageInfo #using ul li {
+    padding: 5px 5px 5px 0px;
+    line-height: 25px;
+}
+
+#content .pageInfo #using a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#content .pageInfo #system {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #system p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+#content .pageInfo #help {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+#content .pageInfo #help p {
+    font-size: 15px;
+    width: 700px;
+    color: #a6a6a6;
+}
+
+
+
+
+
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (min-width: 767px) and (max-width: 1023px) {
+    nav#sidebar {
+        visibility: hidden;
+    }
+
+    #content {
+        width: 100%;
+        float: none;
+    }
+
+    #Respage, #Tipspage, #Corepage, #Designpage, #Accesspage, #Gridpage  {
+        width: 75%;
+    }
+
+    #heading {
+        margin-right: 100px;
+    }
+
+    .navbar.navbar-expand-lg {
+        margin-left: -60px;
+        width: 120%;
+        background-color: #005B82;
+        margin-top: -60px;
+        border-radius: 0px;
+    }
+
+    /* Nav Links overlay */
+    .overlay {    
+        height: 100%;
+        width: 0;
+        position: fixed; 
+        z-index: 1; 
+        left: 0;
+        top: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0, 0, 0, 0.8);
+        overflow-x: hidden; 
+        transition: 0.5s; 
+    }
+
+    .overlay_content {
+        position: relative;
+        /*top: 25%; */
+        width: 100%;
+        text-align: right;
+        margin-top: 30px; 
+    }
+
+    .overlay a {
+        padding: 5px;
+        text-align: left;
+        margin-left: 50px;
+        /*margin-right: 70px;*/
+        text-decoration: none;
+        font-size: 20px;
+        color: #ffffff;
+        display: block; 
+        transition: 0.3s;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .overlay a:hover, .overlay a:focus {
+        color: #093A69;
+        text-decoration: none;
+    }
+
+    @media screen and (max-height: 450px) {
+        .overlay a {font-size: 20px}
+        .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+        }
+    }
+
+    a#close {
+        margin-left: 50px;
+        font-size: 25px;
+        margin-top: 23px;
+    }
+
+    ul#navmenu {
+       list-style: none;
+       float: left;
+       margin-top: 50px; 
+    }
+
+    ul#navmenu li {
+        font-size: 40px;    
+    }
+
+    .container-fluid .search-container form {
+        float: right;
+        margin-right: 30px;
+        margin-top: -50px;
+    }
+
+    .container-fluid .search-container input[type=text]  {
+        width: 200px;
+    }
+
+    img#logo {
+        margin-left: 350px;
+        margin-top: 50px;
+    }
+
+    ul.social {
+        display: none;
+    }
+
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      border-radius: 10px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #0082BB; 
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #0082BB; 
+    }
+
+    ul.components {
+        padding: 0px 0;
+    }
+
+
+
+    .overlay ul p {
+        color: #fff;
+        padding: 10px;
+    }
+
+    .overlay ul li a.dropdown-toggle {
+        padding: 10px 10px 10px 70px;
+        font-size: 0.9em;
+        display: block;
+        color : #ffffff;
+        font-family: 'Raleway';
+        /*width: 50px;*/
+    }
+
+    .overlay ul li a:hover {
+        color: #005B82;
+        background: #fff;
+        text-decoration: none;
+    }
+
+    .overlay ul li.active>a,
+    a[aria-expanded="true"] {
+        color: #fff;
+        background: #005B82;
+        text-decoration: none;
+    }
+
+    a[data-toggle="collapse"] {
+        position: relative;
+    }
+
+    .dropdown-toggle::after {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+
+    .overlay ul. li a.dropdown-toggle {
+        font-size: 0.8em;
+        padding-left: 100px;
+    }
+
+    ul ul a {
+        font-size: 0.9em !important;
+        background: #005B82;
+        padding: 10px 10px 10px 100px;
+        color: #ffffff;
+        font-family: 'Poppins';
+        display: inline-block;
+        width: 100%;
+    }
+
+    ul ul a#showing {
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+@media (min-width: 1024px) {
+    ul#navmenu, div#myNav, img#logo {
+        display: none;
+    }
+}
