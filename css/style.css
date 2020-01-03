@@ -1072,7 +1072,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         left: 0;
         top: 0;
         /*background-color: rgb(0,0,0,0.5);*/
-        background-color: #D9D9D9;
+        background-color: #005B82;
         /*opacity: 0.5;*/
         overflow-x: hidden; 
         transition: 0.5s; 
@@ -1099,7 +1099,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     }
 
     span.glyphicon.glyphicon-remove {
-        color: #005B82;
+        color: #FFFFFF;
         font-size: 40px;
         margin-top: 40px;
         margin-left: 2px;
@@ -1146,25 +1146,25 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     }
 
     #accordion .card {
-        border: none;
+        border-style: none;
     }
 
     #accordion .card .card-header, .card-body {
-        background-color: #D9D9D9;
-        border: none;
+        background-color: #005B82;
+        border-style: none;
     }
 
     #accordion .card .card-header a.card-link {
-        color: #005B82;
+        color: #ffffff;
         margin-left: 50px;
-        border: none;
+        border-style: none;
         font-size: 20px;
     }
 
     #accordion .card .card-body a {
-        color: #005B82;
+        color: #ffffff;
         margin-left: 90px;
-        border: none;
+        border-style: none;
         font-size: 20px;
     }
 
