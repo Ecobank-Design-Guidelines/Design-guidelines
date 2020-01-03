@@ -9,7 +9,7 @@ body {
 
 p {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.1em;
+    font-size: 15.4px;
     font-weight: 300;
     line-height: 1.7em;
     color: #999;
@@ -59,7 +59,7 @@ a:focus {
     float: left;
     overflow-y: scroll;
     top: 0;
-    bottom: 0
+    bottom: 0;
 }
 
 ::-webkit-scrollbar {
@@ -97,8 +97,6 @@ a:focus {
     padding: 0px 0;
 }
 
-
-
 #sidebar ul p {
     color: #fff;
     padding: 10px;
@@ -106,7 +104,7 @@ a:focus {
 
 #sidebar ul li a.dropdown-toggle {
     padding: 10px 10px 10px 70px;
-    font-size: 0.9em;
+    font-size: 12.6px;
     display: block;
     color : #ffffff;
     font-family: 'Raleway';
@@ -144,7 +142,7 @@ a[data-toggle="collapse"] {
 }
 
 ul ul a {
-    font-size: 0.9em !important;
+    font-size: 12.6px !important;
     background: #005B82;
     padding: 10px 10px 10px 100px;
     color: #ffffff;
@@ -157,27 +155,8 @@ ul ul a#showing {
     font-weight: bold;
 }
 
-ul.CTAs {
-    padding: 20px;
-}
-
-ul.CTAs a {
-    text-align: center;
-    font-size: 0.9em !important;
-    display: block;
-    border-radius: 5px;
-    margin-bottom: 5px;
-}
-
-a.download {
-    background: #fff;
-    color: #7386D5;
-}
-
-a.article,
-a.article:hover {
-    background: #6d7fcc !important;
-    color: #fff !important;
+a#myBtn.dropdown-toggle::after, a.dropdown-toggle::after  {
+    display: none;
 }
 
 
@@ -188,17 +167,15 @@ a.article:hover {
 
 #content {
     width: 80%;
-    /*float: left;*/
     padding: 50px;
     min-height: 100vh;
     float: right;
-    /*margin-left: 200px;*/
-    /*transition: all 0.3s;*/
 }
 
 .navbar.navbar-expand-lg {
-    /*margin-left: 330px;*/
     width: 95%;
+    background-color: #ffffff;
+    height: 82px;
 }
 
 div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
@@ -224,6 +201,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 .container-fluid ul.social {
     float: right;
     padding-top: 10px;
+    margin-right: -450px;
 }
 
 
@@ -234,7 +212,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 .container-fluid .search-container form {
-    float: left;
+    margin-left: -450px;  
 }
 
 .container-fluid .search-container input[type=text] {
@@ -242,11 +220,12 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     border-radius: 15px;
     border: 1px solid #666666;
     padding-left: 10px;
+    color: #000000;
+    font-family: 'Raleway';
 }
 
 ::placeholder {
     color: #c4c4c4;
-    /*padding-left: 10px;*/
     font-family: 'Raleway';
     font-size: 15px;
 }
@@ -316,12 +295,12 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     font-size: 150px;
     opacity: 0.1;
     color: #005B82;
+    margin-bottom: -90px;
 }
 
 #content .pageInfo #heading h2#smallWord {
     font-size: 50px;
     font-weight: bold;
-    margin-top: -90px;
     margin-left: 15px;
      color: #005B82;
 }
@@ -347,11 +326,14 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content .pageInfo #overview ul li {
     padding: 5px 5px 5px 0px;
     line-height: 25px;
+    font-size: 14px;
 }
 
 #content .pageInfo #tools a {
     text-decoration: underline;
     font-weight: bold;
+    color: #337ab7;;
+    font-size: 15.4px;
 }
 
 #content .pageInfo #tools {
@@ -360,6 +342,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 #content .pageInfo #tools h1 {
     margin-top: 50px;
+    font-size: 36px;
 }
 
 #content .pageInfo #tools img {
@@ -396,6 +379,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content .pageInfo #link ul li {
     padding: 5px 5px 5px 0px;
     line-height: 25px;
+    font-size: 14px;
 }
 
 #content .pageInfo #using {
@@ -513,6 +497,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content .pageInfo #using ul li {
     padding: 5px 5px 5px 0px;
     line-height: 25px;
+    font-size: 14px;
 }
 
 #content .pageInfo #using a {
@@ -670,7 +655,8 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 #content .pageInfo #feedback ul li {
     padding: 3px 3px 3px 0px;
-    line-height: 15px;   
+    line-height: 15px;
+    font-size: 14px;   
 }
 
 #content .pageInfo #secondaryContent {
@@ -697,6 +683,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content .pageInfo #secondaryContent ul li {
     padding: 5px 5px 5px 0px;
     line-height: 25px;
+    font-size: 14px;
 }
 
 #content .pageInfo #whatsNecessary {
@@ -949,6 +936,10 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     color: #a6a6a6;
 }
 
+#content .pageInfo #know table {
+    font-size: 14px;
+}
+
 #content .pageInfo #know table thead {
     border-bottom: 1px solid #444444;
 }
@@ -986,6 +977,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content .pageInfo #using ul li {
     padding: 5px 5px 5px 0px;
     line-height: 25px;
+    font-size: 14px;
 }
 
 #content .pageInfo #using a {
@@ -1044,10 +1036,31 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
     .navbar.navbar-expand-lg {
         margin-left: -60px;
-        width: 120%;
+        width: 200%;
         background-color: #005B82;
-        margin-top: -60px;
+        margin-top: -80px;
         border-radius: 0px;
+        height: 8%;
+        position: fixed;
+    }
+
+    .container-fluid .search-container form {
+        float: right;
+        margin-right: 700px;
+        margin-top: 25px;
+    }
+
+    .container-fluid .search-container input[type=text]  {
+        width: 200px;
+    }
+
+    img#logo {
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+
+    ul.social {
+        display: none;
     }
 
     /* Nav Links overlay */
@@ -1058,36 +1071,11 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         z-index: 1; 
         left: 0;
         top: 0;
-        background-color: rgb(0,0,0);
-        background-color: rgba(0, 0, 0, 0.8);
+        /*background-color: rgb(0,0,0,0.5);*/
+        background-color: #D9D9D9;
+        /*opacity: 0.5;*/
         overflow-x: hidden; 
         transition: 0.5s; 
-    }
-
-    .overlay_content {
-        position: relative;
-        /*top: 25%; */
-        width: 100%;
-        text-align: right;
-        margin-top: 30px; 
-    }
-
-    .overlay a {
-        padding: 5px;
-        text-align: left;
-        margin-left: 50px;
-        /*margin-right: 70px;*/
-        text-decoration: none;
-        font-size: 20px;
-        color: #ffffff;
-        display: block; 
-        transition: 0.3s;
-        font-family: 'Raleway', sans-serif;
-    }
-
-    .overlay a:hover, .overlay a:focus {
-        color: #093A69;
-        text-decoration: none;
     }
 
     @media screen and (max-height: 450px) {
@@ -1102,7 +1090,20 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     a#close {
         margin-left: 50px;
         font-size: 25px;
-        margin-top: 23px;
+        margin-top: 55px;
+        margin-bottom: 20px;
+    }
+
+    span.glyphicon.glyphicon-menu-hamburger {
+        color: #ffffff;
+    }
+
+    span.glyphicon.glyphicon-remove {
+        color: #005B82;
+        font-size: 40px;
+        margin-top: 40px;
+        margin-left: 2px;
+        margin-bottom: 20px;
     }
 
     ul#navmenu {
@@ -1112,26 +1113,9 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     }
 
     ul#navmenu li {
-        font-size: 40px;    
-    }
-
-    .container-fluid .search-container form {
-        float: right;
-        margin-right: 30px;
-        margin-top: -50px;
-    }
-
-    .container-fluid .search-container input[type=text]  {
-        width: 200px;
-    }
-
-    img#logo {
-        margin-left: 350px;
-        margin-top: 50px;
-    }
-
-    ul.social {
-        display: none;
+        font-size: 40px;  
+        float: left;
+        margin-left: -820px;  
     }
 
     ::-webkit-scrollbar {
@@ -1154,68 +1138,46 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
       background: #0082BB; 
     }
 
-    ul.components {
-        padding: 0px 0;
-    }
-
-
-
-    .overlay ul p {
-        color: #fff;
-        padding: 10px;
-    }
-
-    .overlay ul li a.dropdown-toggle {
-        padding: 10px 10px 10px 70px;
-        font-size: 0.9em;
-        display: block;
-        color : #ffffff;
+    #accordion {
         font-family: 'Raleway';
-        /*width: 50px;*/
+        overflow-y: scroll;
+        top: 0;
+        bottom: 0;
     }
 
-    .overlay ul li a:hover {
+    #accordion .card {
+        border: none;
+    }
+
+    #accordion .card .card-header, .card-body {
+        background-color: #D9D9D9;
+        border: none;
+    }
+
+    #accordion .card .card-header a.card-link {
         color: #005B82;
-        background: #fff;
-        text-decoration: none;
+        margin-left: 50px;
+        border: none;
+        font-size: 20px;
     }
 
-    .overlay ul li.active>a,
-    a[aria-expanded="true"] {
-        color: #fff;
-        background: #005B82;
-        text-decoration: none;
+    #accordion .card .card-body a {
+        color: #005B82;
+        margin-left: 90px;
+        border: none;
+        font-size: 20px;
     }
 
-    a[data-toggle="collapse"] {
-        position: relative;
-    }
-
-    .dropdown-toggle::after {
-        display: block;
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translateY(-50%);
-    }
-
-    .overlay ul. li a.dropdown-toggle {
-        font-size: 0.8em;
-        padding-left: 100px;
-    }
-
-    ul ul a {
-        font-size: 0.9em !important;
-        background: #005B82;
-        padding: 10px 10px 10px 100px;
-        color: #ffffff;
-        font-family: 'Poppins';
-        display: inline-block;
-        width: 100%;
-    }
-
-    ul ul a#showing {
+    #accordion .card .card-body a#showing {
         font-weight: bold;
+    }
+
+    h2#bigWord {
+        display: none;
+    }
+
+    h2#smallWord {
+        margin-top: 90px;
     }
 }
 
@@ -1228,3 +1190,22 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         display: none;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
