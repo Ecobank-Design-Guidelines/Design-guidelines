@@ -24,7 +24,7 @@
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="#Sub" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" id="myBtn">Introduction <!-- <span class="fa fa-chevron-right" id="intro"></span> --></a>
+                    <a href="#Sub" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" id="myBtn">Introduction</a>
                     <ul class="collapse list-unstyled" class="smallnav" id="Sub">
                         <li>
                             <a href="index.html">Resources</a>
@@ -35,7 +35,7 @@
                     </ul>
                 </li>
                 <li class="bigNav">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Principles <!-- <span class="fa fa-chevron-right" id="principles"></span> --></a>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Principles</a>
                     <ul class="collapse list-unstyled" class="smallnav" id="homeSubmenu">
                         <li>
                             <a href="core.html">Core</a>
@@ -49,7 +49,7 @@
                     </ul>
                 </li>
                 <li class="bigNav">
-                    <a href="#homemenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Style <!-- <span class="fa fa-chevron-right" id="style"></span> --></a>
+                    <a href="#homemenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Style</a>
                     <ul class="collapse list-unstyled" class="smallnav" id="homemenu">
                         <li>
                             <a href="grid.html">Grid</a>
@@ -81,7 +81,7 @@
                     </ul>
                 </li>
                 <li class="bigNav">
-                    <a href="#pagemenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Communication <!-- <span class="fa fa-chevron-right" id="comms"></span> --></a>
+                    <a href="#pagemenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Communication</a>
                     <ul class="collapse list-unstyled" class="smallnav" id="pagemenu">
                         <li>
                             <a href="#">Content States</a>
@@ -104,7 +104,7 @@
                     </ul>
                 </li>
                 <li class="bigNav">
-                    <a href="#Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components <!-- <span class="fa fa-chevron-right" id="components"></span> --></a>
+                    <a href="#Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
                     <ul class="collapse list-unstyled" class="smallnav" id="Submenu">
                         <li>
                             <a href="#">Accordion</a>
@@ -211,7 +211,7 @@
                     </ul>
                 </li>
                 <li class="bigNav">
-                    <a href="#menu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Templates <!-- <span class="fa fa-chevron-right" id="template"></span> --></a>
+                    <a href="#menu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Templates</a>
                     <ul class="collapse list-unstyled" class="smallnav" id="menu">
                         <li>
                             <a href="#">Base Template</a>
@@ -246,7 +246,7 @@
                     </ul>
                 </li>
                 <li class="bigNav">
-                    <a href="#page" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Forms <!-- <span class="fa fa-chevron-right" id="form"></span> --></a>
+                    <a href="#page" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Forms</a>
                     <ul class="collapse list-unstyled" class="smallnav" id="page">
                         <li>
                             <a href="#">Simple Form</a>
@@ -263,6 +263,286 @@
         <div id="content">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
+                    <img src="https://www.ecobank.com/img/eco/eco-logo-svg.svg" id="logo">
+                    <ul id="navmenu">
+                        <li>
+                            <a href="#"><span class="glyphicon glyphicon-menu-hamburger" onclick="openNav()"></span></a>
+                        </li>
+                    </ul>
+                    <div class="overlay" id="myNav">
+                        <a href="#" id="close"><span class="glyphicon glyphicon-remove" class="closebtn" onclick="closeNav()"></span></a>
+                        <div class="overlay_content">
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                            Introduction
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <a href="index.html">Resources</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="tips.html" id="showing">Tips</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+                                            Principles
+                                        </a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <a href="core.html">Core</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="design.html">Design</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="access.html">Accessibility</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseThree">
+                                            Style
+                                        </a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <a href="grid.html">Grid</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Spacing</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Typography</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Colours</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Illustrations</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Icons</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Logo</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Imagery</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Microinteractions</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseFour">
+                                            Communication
+                                        </a>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <a href="#">Content States</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Empty States</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Skeleton States</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Copy Assets</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Browser Interaction</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Writing</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseFive">
+                                            Components
+                                        </a>
+                                    </div>
+                                    <div id="collapseFive" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <a href="#">Accordion</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Alert Box</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Alert Line</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Buttons</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Cards</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Checkbox</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Currency Input</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Date Input</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Divider</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">File Upload</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Footer</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Hyperlinks</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Inputs</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Lists</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Modals</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Navbar</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Note</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Number Scrubber</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Pagination</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Password Input</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Phone Number Input</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Progress Bar</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Radio Buttons</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Range Slider</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Search Select</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Select</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Spinner</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Switch Field</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Tables</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Tabs</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Tags</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Textarea</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Toggle</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Tooltip</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseSix">
+                                            Templates
+                                        </a>
+                                    </div>
+                                    <div id="collapseSix" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <a href="#">Base Templates</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Approve It</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">One Time Password</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Stepper</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Terms and Conditions</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Planned Downtime</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Server Error</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">404 Error</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Confirm Cancellation</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Session Timeout</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseSeven">
+                                            Forms
+                                        </a>
+                                    </div>
+                                    <div id="collapseSeven" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <a href="#">Simple Forms</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#">Complex Forms</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>     
+                        </div>
+                    </div>
                     <div class="search-container">
                         <form action="/action_page.php">
                             <input type="text" placeholder="Search.." name="search">
@@ -376,6 +656,14 @@
 
         <script type="text/javascript">
             document.getElementById("myBtn").click();
+            
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0";
+            }
         </script>
 </body>
 </html>

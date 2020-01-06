@@ -863,7 +863,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 #content .pageInfo #devices p {
-    width: 900px;
+    width: 800px;
 }
 
 /* Style tab links */
@@ -1014,9 +1014,9 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 
 /* ---------------------------------------------------
-    MEDIAQUERIES
+    MEDIAQUERIES / MOBILE
 ----------------------------------------------------- */
-@media (min-width: 767px) and (max-width: 1023px) {
+@media (min-width: 767px) and (max-width: 1024px) {
     nav#sidebar {
         visibility: hidden;
     }
@@ -1040,7 +1040,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         background-color: #005B82;
         margin-top: -80px;
         border-radius: 0px;
-        height: 8%;
+        height: 9.5%;
         position: fixed;
     }
 
@@ -1096,6 +1096,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
     span.glyphicon.glyphicon-menu-hamburger {
         color: #ffffff;
+        margin-left: 35px;
     }
 
     span.glyphicon.glyphicon-remove {
@@ -1138,32 +1139,41 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
       background: #0082BB; 
     }
 
-    #accordion {
+    div#accordion {
         font-family: 'Raleway';
         overflow-y: scroll;
         top: 0;
         bottom: 0;
+        border: none;
+        box-shadow: none;
     }
 
-    #accordion .card {
-        border-style: none;
+    div.card {
+        background-color: #005B82;
+        border: none;
     }
 
     #accordion .card .card-header, .card-body {
         background-color: #005B82;
-        border-style: none;
+        border-width: 0px;
+        border-color: #005B82;
+    }
+
+    .card-header {
+        border-bottom: 1px solid #005b82;
     }
 
     #accordion .card .card-header a.card-link {
         color: #ffffff;
         margin-left: 50px;
-        border-style: none;
+        border-width: 0px;
         font-size: 20px;
+        border-color: #005B82;x
     }
 
     #accordion .card .card-body a {
         color: #ffffff;
-        margin-left: 90px;
+        margin-left: 100px;
         border-style: none;
         font-size: 20px;
     }
@@ -1179,16 +1189,41 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     h2#smallWord {
         margin-top: 90px;
     }
+
+    #Gridpage .pageInfo {
+        margin-left: -100px;
+    }
+
+    #tab {
+        width: 90%;
+    }
+
+    #tab .tabcontent p {
+        width: 60px;
+    }
+
+    #tab #Home.tabcontent img {
+        width: 90%;
+    }
+
+    #content .pageInfo #devices p {
+        width: 80%;
+    }
 }
 
 
-
-
-
+/* ---------------------------------------------------
+    MEDIAQUERIES / MOBILE
+----------------------------------------------------- */
 @media (min-width: 1024px) {
     ul#navmenu, div#myNav, img#logo {
         display: none;
     }
+
+    div.accordion {
+        display: none;
+    }
+
 }
 
 
