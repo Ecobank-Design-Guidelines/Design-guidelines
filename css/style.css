@@ -142,11 +142,11 @@ a[data-toggle="collapse"] {
 }
 
 ul ul a {
-    font-size: 12.6px !important;
+    font-size: 12.6px;
     background: #005B82;
     padding: 10px 10px 10px 100px;
     color: #ffffff;
-    font-family: 'Poppins';
+    font-family: 'Raleway';
     display: inline-block;
     width: 100%;
 }
@@ -1026,6 +1026,10 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         float: none;
     }
 
+    #content p {
+        font-size: 16px;
+    }
+
     #Respage, #Tipspage, #Corepage, #Designpage, #Accesspage, #Gridpage  {
         width: 75%;
     }
@@ -1213,9 +1217,9 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 
 /* ---------------------------------------------------
-    MEDIAQUERIES / MOBILE
+    MEDIAQUERIES 
 ----------------------------------------------------- */
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     ul#navmenu, div#myNav, img#logo {
         display: none;
     }
@@ -1224,6 +1228,147 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         display: none;
     }
 
+}
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES / LARGE SCREENS
+----------------------------------------------------- */
+@media (min-width: 2560px) and (max-width: 4096px) {
+    #sidebar img#mylogo {
+        width: 300px;
+        height: 100px;
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+
+    #sidebar ul.components li {
+        margin-left: 50px;
+    }
+
+    #sidebar ul.components li a {
+        font-size: 25px;
+    }
+
+    ul ul a {
+        font-size: 25px;
+    }
+
+    .navbar.navbar-expand-lg {
+        height: 150px;
+    }
+
+    .container-fluid .search-container form {
+        margin-left: -650px;  
+    }
+
+    .container-fluid .search-container input[type=text] {
+        width: 450px;
+        height: 50px;
+        font-size: 30px;
+        border-radius: 50px;
+        padding-left: 15px;
+    }
+
+    ::placeholder {
+        color: #c4c4c4;
+        font-family: 'Raleway';
+        font-size: 30px;
+    }
+
+    .container-fluid ul.social li a {
+        font-size: 30px;
+    }
+
+    div.pageInfo  {
+        margin-left: -500px;
+    }
+
+    #content .pageInfo #heading h2#bigWord {
+        font-size: 280px;
+        margin-bottom: -170px;
+    }
+
+    #content .pageInfo #heading h2#smallWord {
+        font-size: 90px;
+        margin-left: 30px;
+    }
+
+    #content .pageInfo #overview p#welcome {
+        font-size: 30px;
+    }
+
+    #content .pageInfo #overview h2#over {
+        font-size: 55px;
+        margin-bottom: 50px;
+    }
+
+    #content .pageInfo #overview ul li {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    /*RESOURCES PAGE*/
+
+    #content .pageInfo #tools h1 {
+        font-size: 60px;
+    }
+
+    #content .pageInfo #tools p {
+        font-size: 25px;
+    }
+
+    #content .pageInfo #tools a {
+        font-size: 25px;
+    }
+
+    #content .pageInfo #link h1 {
+        font-size: 60px;
+    }
+
+    #content .pageInfo #link p {
+        font-size: 25px;
+        width: 1000px;
+    }
+
+    #content .pageInfo #link ul li {
+        font-size: 25px;
+        line-height: 35px;
+        width: 1000px;
+    }
+
+    #content .pageInfo #using h1 {
+        font-size: 60px;
+    }
+
+    #content .pageInfo #using p {
+        font-size: 25px;
+        width: 1000px;
+    }
+
+    #content .pageInfo #using ul li {
+        font-size: 25px;
+        line-height: 35px;
+        width: 1000px;
+    }
+
+    #content .pageInfo #system h1 {
+        font-size: 60px;
+    }
+
+    #content .pageInfo #system p {
+        font-size: 25px;
+        width: 1000px;
+    }
+
+    #content .pageInfo #help h1 {
+        font-size: 60px;
+    }
+
+    #content .pageInfo #help p {
+        font-size: 25px;
+        width: 1000px;
+    }
 }
 
 
