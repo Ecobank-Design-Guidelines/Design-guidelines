@@ -1231,6 +1231,147 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 
+
+/*MEDIUM SCREENS*/
+@media (min-width: 1920px) {
+    #sidebar img#mylogo {
+        width: 250px;
+        height: 75px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    #sidebar ul.components li {
+        margin-left: 30px;
+    }
+
+    #sidebar ul.components li a {
+        font-size: 18px;
+    }
+
+    ul ul a {
+        font-size: 18px;
+    }
+
+    .navbar.navbar-expand-lg {
+        height: 120px;
+    }
+
+    .container-fluid .search-container form {
+        margin-left: -500px;  
+    }
+
+    .container-fluid .search-container input[type=text] {
+        width: 350px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 50px;
+        padding-left: 10px;
+    }
+
+    ::placeholder {
+        color: #c4c4c4;
+        font-family: 'Raleway';
+        font-size: 20px;
+    }
+
+    .container-fluid ul.social li a {
+        font-size: 20px;
+    }
+
+    div.pageInfo  {
+        /*margin-left: -600px;*/
+    }
+
+    #content .pageInfo #heading h2#bigWord {
+        font-size: 200px;
+        margin-bottom: -120px;
+    }
+
+    #content .pageInfo #heading h2#smallWord {
+        font-size: 70px;
+        margin-left: 20px;
+    }
+
+    #content .pageInfo #overview p#welcome {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    #content .pageInfo #overview h2#over {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    #content .pageInfo #overview ul li {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+
+
+    /*RESOURCES PAGE*/
+    #content .pageInfo #tools h1 {
+        font-size: 45px;
+    }
+
+    #content .pageInfo #tools p {
+        font-size: 20px;
+    }
+
+    #content .pageInfo #tools a {
+        font-size: 20px;
+    }
+
+    #content .pageInfo #link h1 {
+        font-size: 45px;
+    }
+
+    #content .pageInfo #link p {
+        font-size: 20px;
+        width: 1000px;
+    }
+
+    #content .pageInfo #link ul li {
+        font-size: 25px;
+        line-height: 35px;
+        width: 1000px;
+    }
+
+    #content .pageInfo #using h1 {
+        font-size: 45px;
+    }
+
+    #content .pageInfo #using p {
+        font-size: 20px;
+        width: 1000px;
+    }
+
+    #content .pageInfo #using ul li {
+        font-size: 20px;
+        line-height: 35px;
+        width: 1000px;
+    }
+
+    #content .pageInfo #system h1 {
+        font-size: 45px;
+    }
+
+    #content .pageInfo #system p {
+        font-size: 20px;
+        width: 1000px;
+    }
+
+    #content .pageInfo #help h1 {
+        font-size: 45px;
+    }
+
+    #content .pageInfo #help p {
+        font-size: 20px;
+        width: 1000px;
+    }
+}
+
 /* ---------------------------------------------------
     MEDIAQUERIES / LARGE SCREENS
 ----------------------------------------------------- */
