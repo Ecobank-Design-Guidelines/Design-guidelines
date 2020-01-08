@@ -104,7 +104,7 @@ a:focus {
 
 #sidebar ul li a.dropdown-toggle {
     padding: 10px 10px 10px 70px;
-    font-size: 12.6px;
+    font-size: 18px;
     display: block;
     color : #ffffff;
     font-family: 'Raleway';
@@ -142,7 +142,7 @@ a[data-toggle="collapse"] {
 }
 
 ul ul a {
-    font-size: 12.6px;
+    font-size: 18px;
     background: #005B82;
     padding: 10px 10px 10px 100px;
     color: #ffffff;
@@ -1026,16 +1026,25 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         float: none;
     }
 
+
     #content p {
-        font-size: 16px;
+        font-size: 50px;
+    }
+
+    #content #overview p {
+        font-size: 50px;
     }
 
     #Respage, #Tipspage, #Corepage, #Designpage, #Accesspage, #Gridpage  {
         width: 75%;
     }
 
-    #heading {
-        margin-right: 100px;
+    ul.components li a {
+        font-size: 25px;
+    }
+
+    ul ul a {
+        font-size: 25px;
     }
 
     .navbar.navbar-expand-lg {
@@ -1075,9 +1084,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         z-index: 1; 
         left: 0;
         top: 0;
-        /*background-color: rgb(0,0,0,0.5);*/
         background-color: #005B82;
-        /*opacity: 0.5;*/
         overflow-x: hidden; 
         transition: 0.5s; 
     }
@@ -1100,12 +1107,13 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
     span.glyphicon.glyphicon-menu-hamburger {
         color: #ffffff;
+        font-size: 60px;
         margin-left: 35px;
     }
 
     span.glyphicon.glyphicon-remove {
         color: #FFFFFF;
-        font-size: 40px;
+        font-size: 60px;
         margin-top: 40px;
         margin-left: 2px;
         margin-bottom: 20px;
@@ -1161,6 +1169,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         background-color: #005B82;
         border-width: 0px;
         border-color: #005B82;
+        font-si
     }
 
     .card-header {
@@ -1171,7 +1180,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         color: #ffffff;
         margin-left: 50px;
         border-width: 0px;
-        font-size: 20px;
+        font-size: 50px;
         border-color: #005B82;x
     }
 
@@ -1179,11 +1188,15 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         color: #ffffff;
         margin-left: 100px;
         border-style: none;
-        font-size: 20px;
+        font-size: 40px;
     }
 
     #accordion .card .card-body a#showing {
         font-weight: bold;
+    }
+
+    #accordion.card a.cardlink {
+        font-size: 20px;
     }
 
     h2#bigWord {
@@ -1279,10 +1292,6 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         font-size: 20px;
     }
 
-    div.pageInfo  {
-        /*margin-left: -600px;*/
-    }
-
     #content .pageInfo #heading h2#bigWord {
         font-size: 200px;
         margin-bottom: -120px;
@@ -1333,7 +1342,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     }
 
     #content .pageInfo #link ul li {
-        font-size: 25px;
+        font-size: 20px;
         line-height: 35px;
         width: 1000px;
     }
