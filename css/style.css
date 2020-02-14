@@ -1310,6 +1310,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     #content .pageInfo #overview h2#over {
         font-size: 45px;
         margin-bottom: 50px;
+        margin-top: 50px;
     }
 
     #content .pageInfo #overview ul li {
@@ -1451,6 +1452,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     #content .pageInfo #overview h2#over {
         font-size: 55px;
         margin-bottom: 50px;
+        margin-top: 50px
     }
 
     #content .pageInfo #overview ul li {
