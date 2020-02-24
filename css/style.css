@@ -221,11 +221,11 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     color: #005B82;
 }
 
-.container-fluid .search-container form {
+.content_page .search-container form {
     margin-left: -450px;  
 }
 
-.container-fluid .search-container input[type=text] {
+.content_page .search-container input[type=text] {
     width: 250px;
     border-radius: 15px;
     border: 1px solid #666666;
