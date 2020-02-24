@@ -46,6 +46,23 @@ a:focus {
 }
 
 /* ---------------------------------------------------
+    K's Layout STYLE 
+----------------------------------------------------- */
+.k_left_bar {
+    background: #005B82;
+    height: 100vh;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+}
+
+
+
+/* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
 #sidebar {
