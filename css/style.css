@@ -52,7 +52,12 @@ a:focus {
     min-width: 20%;
     max-width: 20%;
     height: 100vh;
-    
+    background: #005B82;
+    color: #fff;
+    transition: all 0.3s;
+    position: fixed;
+    float: left;
+    overflow-y: scroll;
     top: 0;
     bottom: 0;
 }
