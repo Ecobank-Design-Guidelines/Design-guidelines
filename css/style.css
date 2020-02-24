@@ -183,7 +183,6 @@ a#myBtn.dropdown-toggle::after, a.dropdown-toggle::after  {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, lfr));
     /*width: 80%;*/
-    position: relative;
     padding: 50px;
     min-height: 100vh;
     float: left;
