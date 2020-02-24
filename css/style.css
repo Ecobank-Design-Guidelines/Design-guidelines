@@ -277,7 +277,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Respage {
     margin-top: 100px;
     font-family: 'Raleway';
-    float: right;
+    float: left;
     margin-left: 80px
     margin-right: 220px;
 }
