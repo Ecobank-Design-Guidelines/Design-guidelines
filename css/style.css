@@ -48,6 +48,10 @@ a:focus {
 /* ---------------------------------------------------
     K's Layout STYLE 
 ----------------------------------------------------- */
+.main_page {
+    column-count: 2;
+}
+
 .k_left_bar {
     background: #005B82;
     height: 100vh;
@@ -58,12 +62,22 @@ a:focus {
     position: fixed;
     bottom: 0;
     top: 0;
-    column-count: 2;
     column-width: 25%;
 }
 
 .k_content {
-    
+
+}
+
+#content {
+    display: grid;
+    grid-column-start: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, lfr));
+    /*width: 80%;*/
+    padding: 50px;
+    min-height: 100vh;
+    position: inherit;
+    float: center;
 }
 
 
