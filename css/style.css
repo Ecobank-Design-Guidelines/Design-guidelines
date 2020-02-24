@@ -54,42 +54,15 @@ a:focus {
     clear: both
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #0082BB; 
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #0082BB; 
-}
-
 .column1 {
     float: left;
     width: 25%;
     bottom: 0;
     top: 0;
-    min-width: 20%;
-    max-width: 20%;
-    height: 100vh;
-    background: #005B82;
-    color: #fff;
-    transition: all 0.3s;
-    position: fixed;
-    overflow-y: scroll;
 }
 
 .column2 {
+    margin-left: 100px;
     float: left;
     width: 75%;
 }
