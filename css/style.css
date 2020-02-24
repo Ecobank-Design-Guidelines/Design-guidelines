@@ -48,7 +48,7 @@ a:focus {
 /* ---------------------------------------------------
     K's Layout STYLE 
 ----------------------------------------------------- */
-.wrapper:after {
+.row:after {
     content: "";
     display: table;
     clear: both
@@ -60,13 +60,11 @@ a:focus {
     top: 0;
 }
 
-.side_navbar {
+.left {
     width: 25%
 }
 
-.main_content {
-    margin-left: 100px;
-    float: left;
+.middle {
     width: 75%;
 }
 
