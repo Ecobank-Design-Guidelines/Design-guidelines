@@ -1068,13 +1068,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         position: fixed;
     }
 
-/*    .container-fluid .search-container form {
-        float: right;
-        margin-right: 700px;
-        margin-top: 25px;
-    }*/
-
-        .content_page .search-container form {
+    .content_page .search-container form {
         float: right;
         margin-right: 700px;
         margin-top: 25px;
