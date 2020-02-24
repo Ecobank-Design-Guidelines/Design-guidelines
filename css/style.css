@@ -321,7 +321,8 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 #content .pageInfo #overview {
-    margin-left: 15px;  
+    margin-left: 15px;
+    grid-column-start: span 2;  
 }
 
 #content .pageInfo #overview p#welcome {
