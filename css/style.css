@@ -171,7 +171,8 @@ a#myBtn.dropdown-toggle::after, a.dropdown-toggle::after  {
     /*width: 80%;*/
     padding: 50px;
     min-height: 100vh;
-    float: right;
+    float: left;
+    margin-left: 100px;
 }
 
 .navbar.navbar-expand-lg {
@@ -201,7 +202,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 .container-fluid ul.social {
-    /*float: right;*/
+    float: right;
     padding-top: 10px;
     margin-right: -450px;
 }
@@ -277,7 +278,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Respage {
     margin-top: 100px;
     font-family: 'Raleway';
-    /*float: right;*/
+    float: left;
     margin-left: 80px
     margin-right: 220px;
 }
@@ -444,7 +445,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Tipspage {
     margin-top: 100px;
     font-family: 'Raleway';
-    /*float: right;*/
+    float: left;
     margin-right: 220px;
 }
 
@@ -537,7 +538,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Corepage {
     margin-top: 100px;
     font-family: 'Raleway';
-    /*float: right;*/
+    float: left;
     margin-right: 220px;
 }
 
@@ -629,7 +630,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Designpage {
     margin-top: 100px;
     font-family: 'Raleway';
-    /*float: right;*/
+    float: left;
     margin-right: 220px;
 }
 
@@ -756,7 +757,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Accesspage {
     margin-top: 100px;
     font-family: 'Raleway';
-    /*float: right;*/
+    float: left;
     margin-right: 220px;
 }
 
@@ -848,7 +849,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Gridpage {
     margin-top: 100px;
     font-family: 'Raleway';
-    /*float: right;*/
+    float: left;
     margin-right: 120px;
 }
 
