@@ -86,6 +86,7 @@ a:focus {
     padding: 50px 20px 50px 20px;
     background: #005B82;
     font-family: 'Raleway';
+    position: sticky;
 }
 
 #sidebar img#mylogo {
