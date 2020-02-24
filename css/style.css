@@ -292,6 +292,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     float: left;
     margin-left: 80px
     margin-right: 220px;
+    grid-column-start: span 2;
 }
 
 .scroller, .pageInfo {
@@ -321,8 +322,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 #content .pageInfo #overview {
-    margin-left: 15px;
-    grid-column-start: span 2;  
+    margin-left: 15px;  
 }
 
 #content .pageInfo #overview p#welcome {
