@@ -57,6 +57,16 @@ a:focus {
 .column1 {
     float: left;
     width: 25%;
+    bottom: 0;
+    top: 0;
+    min-width: 20%;
+    max-width: 20%;
+    height: 100vh;
+    background: #005B82;
+    color: #fff;
+    transition: all 0.3s;
+    position: fixed;
+    overflow-y: scroll;
 }
 
 .column2 {
