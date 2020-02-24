@@ -58,6 +58,7 @@ a:focus {
     position: fixed;
     bottom: 0;
     top: 0;
+    grid-column-start: span 2;
 }
 
 
