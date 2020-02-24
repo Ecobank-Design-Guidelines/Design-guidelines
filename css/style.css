@@ -166,21 +166,25 @@ a#myBtn.dropdown-toggle::after, a.dropdown-toggle::after  {
 ----------------------------------------------------- */
 
 .wrapper {
-    display: grid;
+    display: grid;=
     grid-template-columns: repeat(auto-fit, minmax(300px, lfr));
+    /*width: 80%;*/
+    padding: 50px;
     min-height: 100vh;
+    position: inherit;
     float: left; 
 }
 
-/*#content {
+#content {
     display: grid;
     grid-column-start: auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, lfr));
+    /*width: 80%;*/
     padding: 50px;
     min-height: 100vh;
     position: inherit;
     float: left;
-}*/
+}
 
 .navbar.navbar-expand-lg {
     width: 95%;
@@ -215,17 +219,17 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 
-.content_page .search-container {
+.container-fluid .search-container {
     font-size: 17px;
     padding-top: 10px;
     color: #005B82;
 }
 
-.content_page .search-container form {
+.container-fluid .search-container form {
     margin-left: -450px;  
 }
 
-.content_page .search-container input[type=text] {
+.container-fluid .search-container input[type=text] {
     width: 250px;
     border-radius: 15px;
     border: 1px solid #666666;
@@ -1068,7 +1072,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         position: fixed;
     }
 
-    .content_page .search-container form {
+    .container-fluid .search-container form {
         float: right;
         margin-right: 700px;
         margin-top: 25px;
@@ -1281,17 +1285,17 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         height: 120px;
     }
 
-/*    .container-fluid .search-container form {
+    .container-fluid .search-container form {
         margin-left: -500px;  
-    }*/
+    }
 
-/*    .container-fluid .search-container input[type=text] {
+    .container-fluid .search-container input[type=text] {
         width: 350px;
         height: 40px;
         font-size: 20px;
         border-radius: 50px;
         padding-left: 10px;
-    }*/
+    }
 
     ::placeholder {
         color: #c4c4c4;
@@ -1420,17 +1424,17 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
         height: 150px;
     }
 
-/*    .container-fluid .search-container form {
+    .container-fluid .search-container form {
         margin-left: -650px;  
-    }*/
+    }
 
-/*    .container-fluid .search-container input[type=text] {
+    .container-fluid .search-container input[type=text] {
         width: 450px;
         height: 50px;
         font-size: 30px;
         border-radius: 50px;
         padding-left: 15px;
-    }*/
+    }
 
     ::placeholder {
         color: #c4c4c4;
