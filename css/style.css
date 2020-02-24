@@ -48,7 +48,7 @@ a:focus {
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
-.left_bar {
+#sidebar {
     min-width: 20%;
     max-width: 20%;
     height: 100vh;
@@ -61,20 +61,6 @@ a:focus {
     top: 0;
     bottom: 0;
 }
-
-/*#sidebar {
-    min-width: 20%;
-    max-width: 20%;
-    height: 100vh;
-    background: #005B82;
-    color: #fff;
-    transition: all 0.3s;
-    position: fixed;
-    float: left;
-    overflow-y: scroll;
-    top: 0;
-    bottom: 0;
-}*/
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -179,28 +165,23 @@ a#myBtn.dropdown-toggle::after, a.dropdown-toggle::after  {
     CONTENT STYLE
 ----------------------------------------------------- */
 
-.wrapper {
+#content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, lfr));
     /*width: 80%;*/
     padding: 50px;
     min-height: 100vh;
-    float: left;
-    /*margin-left: 300px;*/
+    float: right;
 }
 
 .navbar.navbar-expand-lg {
-    width: 75%;
+    width: 95%;
     background-color: #ffffff;
     height: 82px;
 }
 
 div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     color: #000000;
-}
-
-.container-fluid {
-    afgadfgsbsbgdfssd
 }
 
 .container-fluid ul.social li {
@@ -296,7 +277,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Respage {
     margin-top: 100px;
     font-family: 'Raleway';
-    float: left;
+    float: right;
     margin-left: 80px
     margin-right: 220px;
 }
@@ -463,7 +444,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Tipspage {
     margin-top: 100px;
     font-family: 'Raleway';
-    float: left;
+    float: right;
     margin-right: 220px;
 }
 
@@ -556,7 +537,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Corepage {
     margin-top: 100px;
     font-family: 'Raleway';
-    float: left;
+    float: right;
     margin-right: 220px;
 }
 
@@ -648,7 +629,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Designpage {
     margin-top: 100px;
     font-family: 'Raleway';
-    float: left;
+    float: right;
     margin-right: 220px;
 }
 
@@ -775,7 +756,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Accesspage {
     margin-top: 100px;
     font-family: 'Raleway';
-    float: left;
+    float: right;
     margin-right: 220px;
 }
 
@@ -867,7 +848,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Gridpage {
     margin-top: 100px;
     font-family: 'Raleway';
-    float: left;
+    float: right;
     margin-right: 120px;
 }
 
