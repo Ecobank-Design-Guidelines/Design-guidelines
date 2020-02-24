@@ -48,8 +48,10 @@ a:focus {
 /* ---------------------------------------------------
     K's Layout STYLE 
 ----------------------------------------------------- */
-.main_page {
-    column-count: 2;
+.wrapper {
+    content: "";
+    display: table;
+    clear: both
 }
 
 .k_left_bar {
