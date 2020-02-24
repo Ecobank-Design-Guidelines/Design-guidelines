@@ -289,10 +289,10 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Respage {
     margin-top: 100px;
     font-family: 'Raleway';
+    grid-column-start: span 2;
     float: left;
     margin-left: 80px
     margin-right: 220px;
-    grid-column-start: span 2;
 }
 
 .scroller, .pageInfo {
