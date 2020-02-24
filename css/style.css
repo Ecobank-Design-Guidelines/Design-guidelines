@@ -54,6 +54,16 @@ a:focus {
     clear: both
 }
 
+.column1 {
+    float: left;
+    width: 25%;
+}
+
+.column2 {
+    float: left;
+    width: 75%;
+}
+
 .k_left_bar {
     background: #005B82;
     height: 100vh;
