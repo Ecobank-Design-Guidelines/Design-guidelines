@@ -86,7 +86,6 @@ a:focus {
     padding: 50px 20px 50px 20px;
     background: #005B82;
     font-family: 'Raleway';
-    position: sticky;
 }
 
 #sidebar img#mylogo {
@@ -167,7 +166,7 @@ a#myBtn.dropdown-toggle::after, a.dropdown-toggle::after  {
 ----------------------------------------------------- */
 
 .wrapper {
-    display: grid;=
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, lfr));
     /*width: 80%;*/
     padding: 50px;
@@ -224,6 +223,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     font-size: 17px;
     padding-top: 10px;
     color: #005B82;
+    position: sticky;
 }
 
 .container-fluid .search-container form {
@@ -290,7 +290,6 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Respage {
     margin-top: 100px;
     font-family: 'Raleway';
-    grid-column-start: span 2;
     float: left;
     margin-left: 80px
     margin-right: 220px;
