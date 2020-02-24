@@ -48,20 +48,23 @@ a:focus {
 /* ---------------------------------------------------
     K's Layout STYLE 
 ----------------------------------------------------- */
-.wrapper {
+.wrapper:after {
     content: "";
     display: table;
     clear: both
 }
 
-.column1 {
+.column {
     float: left;
-    width: 25%;
     bottom: 0;
     top: 0;
 }
 
-.column2 {
+.side_navbar {
+    width: 25%
+}
+
+.main_content {
     margin-left: 100px;
     float: left;
     width: 75%;
