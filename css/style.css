@@ -175,16 +175,15 @@ a#myBtn.dropdown-toggle::after, a.dropdown-toggle::after  {
     float: left; 
 }
 
-#content {
+/*#content {
     display: grid;
     grid-column-start: auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, lfr));
-    /*width: 80%;*/
     padding: 50px;
     min-height: 100vh;
     position: inherit;
     float: left;
-}
+}*/
 
 .navbar.navbar-expand-lg {
     width: 95%;
