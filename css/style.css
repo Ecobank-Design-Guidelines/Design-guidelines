@@ -66,6 +66,7 @@ a:focus {
 }
 
 .k_content {
+    border-style: solid;
     position: -webkit-sticky;
     position: sticky;
     z-index: 1;
