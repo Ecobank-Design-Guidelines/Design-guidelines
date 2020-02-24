@@ -165,6 +165,17 @@ a#myBtn.dropdown-toggle::after, a.dropdown-toggle::after  {
     CONTENT STYLE
 ----------------------------------------------------- */
 
+.wrapper {
+    display: grid;
+    grid-column-start: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, lfr));
+    /*width: 80%;*/
+    padding: 50px;
+    min-height: 100vh;
+    position: inherit;
+    float: left; 
+}
+
 #content {
     display: grid;
     grid-column-start: auto;
