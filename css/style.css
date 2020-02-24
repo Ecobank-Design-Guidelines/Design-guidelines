@@ -201,7 +201,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 .container-fluid ul.social {
-    float: right;
+    /*float: right;*/
     padding-top: 10px;
     margin-right: -450px;
 }
@@ -444,7 +444,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Tipspage {
     margin-top: 100px;
     font-family: 'Raleway';
-    float: right;
+    /*float: right;*/
     margin-right: 220px;
 }
 
@@ -537,7 +537,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Corepage {
     margin-top: 100px;
     font-family: 'Raleway';
-    float: right;
+    /*float: right;*/
     margin-right: 220px;
 }
 
@@ -629,7 +629,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Designpage {
     margin-top: 100px;
     font-family: 'Raleway';
-    float: right;
+    /*float: right;*/
     margin-right: 220px;
 }
 
@@ -756,7 +756,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Accesspage {
     margin-top: 100px;
     font-family: 'Raleway';
-    float: right;
+    /*float: right;*/
     margin-right: 220px;
 }
 
@@ -848,7 +848,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Gridpage {
     margin-top: 100px;
     font-family: 'Raleway';
-    float: right;
+    /*float: right;*/
     margin-right: 120px;
 }
 
