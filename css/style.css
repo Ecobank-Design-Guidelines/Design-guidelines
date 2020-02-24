@@ -172,7 +172,7 @@ a#myBtn.dropdown-toggle::after, a.dropdown-toggle::after  {
     padding: 50px;
     min-height: 100vh;
     float: left;
-    margin-left: 100px;
+    margin-left: 300px;
 }
 
 .navbar.navbar-expand-lg {
