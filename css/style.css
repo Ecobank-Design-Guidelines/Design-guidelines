@@ -48,6 +48,20 @@ a:focus {
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
+.left_bar {
+    min-width: 20%;
+    max-width: 20%;
+    height: 100vh;
+    background: #005B82;
+    color: #fff;
+    transition: all 0.3s;
+    position: fixed;
+    float: left;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+}
+
 #sidebar {
     min-width: 20%;
     max-width: 20%;
@@ -183,6 +197,10 @@ a#myBtn.dropdown-toggle::after, a.dropdown-toggle::after  {
 
 div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     color: #000000;
+}
+
+.container-fluid {
+    afgadfgsbsbgdfssd
 }
 
 .container-fluid ul.social li {
