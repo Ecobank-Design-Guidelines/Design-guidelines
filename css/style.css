@@ -169,7 +169,6 @@ a#myBtn.dropdown-toggle::after, a.dropdown-toggle::after  {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, lfr));
     min-height: 100vh;
-    position: inherit;
     float: left; 
 }
 
