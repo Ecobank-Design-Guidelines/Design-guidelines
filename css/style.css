@@ -327,6 +327,13 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     color: #666666;
 }
 
+#content .pageInfo #overview p#about_us_text {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 750px;
+    color: #666666;
+}
+
 
 #content .pageInfo #overview ul {
     list-style: none;
