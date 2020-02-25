@@ -330,7 +330,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     width: 70%;
 }
 
-#content .pageInfo #overview ul li {
+#content .pageInfo #overview ul li p {
     padding: 5px 5px 5px 0px;
     line-height: 25px;
     font-size: 14px;
