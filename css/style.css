@@ -313,7 +313,11 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 #content .pageInfo #overview {
-    margin-left: 15px;  
+    margin-left: 15px;
+}
+
+#content .pageInfo #bold {
+    font-weight: bold;
 }
 
 #content .pageInfo #overview p#welcome {
