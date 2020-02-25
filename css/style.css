@@ -46,64 +46,6 @@ a:focus {
 }
 
 /* ---------------------------------------------------
-    K's Layout STYLE 
------------------------------------------------------ */
-
-/*.row:after {
-    content: "";
-    display: table;
-    clear: both
-}
-
-.column {
-    float: left;
-}
-
-.left {
-    width: 30%
-}
-
-.middle {
-    width: 70%;
-}
-
-.k_left_bar {
-    background: #005B82;
-    height: 100vh;
-    color: #fff;
-    transition: all 0.3s;
-    overflow-y: scroll;
-    float: left;
-    position: fixed;
-    bottom: 0;
-    top: 0;
-    width: 25%;
-}
-
-.k_content {
-    border-style: solid;
-    position: -webkit-sticky;
-    position: sticky;
-    z-index: 1;
-    width: 75%;
-
-
-}
-
-#content {
-    display: grid;
-    grid-column-start: auto;
-    grid-template-columns: repeat(auto-fit, minmax(300px, lfr));
-    width: 80%;
-    padding: 50px;
-    min-height: 100vh;
-    position: inherit;
-    float: center;
-}
-*
-
-
-/* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
 #sidebar {
@@ -113,7 +55,7 @@ a:focus {
     background: #005B82;
     color: #fff;
     transition: all 0.3s;
-    /*position: fixed;*/
+    position: fixed;
     float: left;
     overflow-y: scroll;
     top: 0;
@@ -223,25 +165,11 @@ a#myBtn.dropdown-toggle::after, a.dropdown-toggle::after  {
     CONTENT STYLE
 ----------------------------------------------------- */
 
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, lfr));
-    /*width: 80%;*/
-    padding: 50px;
-    min-height: 100vh;
-    position: inherit;
-    float: center; 
-}
-
 #content {
-    display: grid;
-    grid-column-start: auto;
-    grid-template-columns: repeat(auto-fit, minmax(300px, lfr));
-    /*width: 80%;*/
+    width: 80%;
     padding: 50px;
     min-height: 100vh;
-    position: inherit;
-    float: center;
+    float: right;
 }
 
 .navbar.navbar-expand-lg {
@@ -281,7 +209,6 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     font-size: 17px;
     padding-top: 10px;
     color: #005B82;
-    position: sticky;
 }
 
 .container-fluid .search-container form {
@@ -348,8 +275,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content #Respage {
     margin-top: 100px;
     font-family: 'Raleway';
-    float: left;
-    margin-left: 80px
+    float: right;
     margin-right: 220px;
 }
 
@@ -386,7 +312,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content .pageInfo #overview p#welcome {
     margin-top: 50px;
     font-size: 20px;
-    width: 900px;
+    width: 600px;
     color: #666666;
 }
 
@@ -1384,7 +1310,6 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     #content .pageInfo #overview h2#over {
         font-size: 45px;
         margin-bottom: 50px;
-        margin-top: 50px;
     }
 
     #content .pageInfo #overview ul li {
@@ -1526,7 +1451,6 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     #content .pageInfo #overview h2#over {
         font-size: 55px;
         margin-bottom: 50px;
-        margin-top: 50px
     }
 
     #content .pageInfo #overview ul li {
