@@ -49,24 +49,12 @@ a:focus {
     K's SIDEBAR STYLE
 ----------------------------------------------------- */
 
-    {
+{
         box-sizing: border-box;
     }
-    /* Set additional styling options for the columns */
+    /* Set additional styling options for the columns*/
     .column {
     float: left;
-    }
-
-    /* Set width length for the left, right and middle columns */
-    .left {
-    width: 20%;
-    }
-
-    .middle {
-    width: 30%;
-    }
-    
-    .right {
     width: 50%;
     }
 
@@ -74,7 +62,6 @@ a:focus {
     content: "";
     display: table;
     clear: both;
-    float: left;
 
 
 /* ---------------------------------------------------
