@@ -49,7 +49,7 @@ a:focus {
     K's Layout STYLE 
 ----------------------------------------------------- */
 
-.row:after {
+/*.row:after {
     content: "";
     display: table;
     clear: both
@@ -94,13 +94,13 @@ a:focus {
     display: grid;
     grid-column-start: auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, lfr));
-    /*width: 80%;*/
+    width: 80%;
     padding: 50px;
     min-height: 100vh;
     position: inherit;
     float: center;
 }
-
+*
 
 
 /* ---------------------------------------------------
