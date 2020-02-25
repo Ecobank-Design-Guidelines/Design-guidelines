@@ -173,7 +173,7 @@ a#myBtn.dropdown-toggle::after, a.dropdown-toggle::after  {
 ----------------------------------------------------- */
 
 #content {
-    width: 75%;
+    width: 80%;
     padding: 50px;
     min-height: 100vh;
     float: right;
