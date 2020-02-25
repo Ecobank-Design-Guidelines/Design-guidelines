@@ -312,7 +312,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
      color: #005B82;
 }
 
-#content .pageInfo #heading h2#text_header {
+#content .pageInfo h2#text_header {
     font-size: 50px;
     font-weight: bold;
     margin-left: 15px;
