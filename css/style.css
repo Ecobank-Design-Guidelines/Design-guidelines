@@ -113,7 +113,7 @@ a:focus {
     background: #005B82;
     color: #fff;
     transition: all 0.3s;
-    position: fixed;
+    /*position: fixed;*/
     float: left;
     overflow-y: scroll;
     top: 0;
