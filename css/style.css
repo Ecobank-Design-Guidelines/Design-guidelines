@@ -319,7 +319,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content .pageInfo #overview p#welcome {
     margin-top: 50px;
     font-size: 20px;
-    width: 70%;
+    width: 750px;
     color: #666666;
 }
 
@@ -327,10 +327,10 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content .pageInfo #overview ul {
     list-style: none;
     padding-left: 0px;
-    width: 70%;
+    width: 750px;
 }
 
-#content .pageInfo #overview ul li p {
+#content .pageInfo #overview ul li {
     padding: 5px 5px 5px 0px;
     line-height: 25px;
     font-size: 14px;
