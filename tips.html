@@ -15,6 +15,7 @@
 </head>
 <body>
 
+
     <div class="wrapper">
         <!-- Sidebar  -->
         <nav id="sidebar">
@@ -24,18 +25,19 @@
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="#Sub" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" id="myBtn">Introduction</a>
+                    <a href="#Sub" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" id="myBtn">Welcome </a>
                     <ul class="collapse list-unstyled" class="smallnav" id="Sub">
-                        <li>
-                            <a href="index.html">Welcome</a>
+                        <li id="on">
+                            <a href="index.html" class="show" id="showing">Welcome Message</a>
                         </li>
                         <li>
-                            <a href="tips.html" id="showing">How to use</a>
+                            <a href="tips.html" class="show">How to use</a>
                         </li>
+                        
                     </ul>
                 </li>
                 <li class="bigNav">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Principles</a>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Principles </a>
                     <ul class="collapse list-unstyled" class="smallnav" id="homeSubmenu">
                         <li>
                             <a href="core.html">Core</a>
@@ -319,10 +321,10 @@
                                     </div>
                                     <div id="collapseOne" class="collapse show" data-parent="#accordion">
                                         <div class="card-body">
-                                            <a href="index.html">Welcome</a>
+                                            <a href="index.html" id="showing">Welcome</a>
                                         </div>
                                         <div class="card-body">
-                                            <a href="tips.html" id="showing">How to use</a>
+                                            <a href="tips.html">How to use</a>
                                         </div>
                                     </div>
                                 </div>
@@ -578,7 +580,14 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div id="collapseEight" class="collapse" data-parent="#accordion">
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseEight">
+                                            Brand
+                                        </a>
+                                    </div>
+                                    <div id="collapseEight" class="collapse" data-parent="#accordion">
                                         <div class="card-body">
                                             <a href="#">Ecobank Mobile</a>
                                         </div>
@@ -630,7 +639,7 @@
                 </div>
             </nav>
 
-             <div id="Respage">
+            <div id="Respage">
                 <div class="scroller"></div>
                 <div class="pageInfo">
                     <div id="heading">
@@ -652,7 +661,7 @@
                         <h2 id="text_header">About us</h2>
                         <p id="about_us_text">Our personality establishes the foundation of the Ecobank brand. It is a product of our mission, and a reflection of our culture, values, and promise to customers. We make sure that these traits come through in all of our customer-facing communications and content.</p>            
                     </div>
-                    <div id="tools">
+                    <!-- <div id="tools">
                         <h1>Tools</h1>
                         <p>To start designing you’ll need the following to be set up on your machine.</p>
                         <br>
@@ -727,7 +736,7 @@
                             We have a Slack group Nedbankdesign.slack.com, feel free to send us any queries.
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
