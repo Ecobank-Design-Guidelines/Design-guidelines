@@ -74,6 +74,7 @@ a:focus {
     content: "";
     display: table;
     clear: both;
+    float: left;
 
 
 /* ---------------------------------------------------
