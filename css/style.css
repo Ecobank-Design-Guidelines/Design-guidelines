@@ -279,7 +279,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 /* ---------------------------------------------------
     RESOURCES PAGE
 ----------------------------------------------------- */
-#content #, #Tipspage, #Corepage, #Designpage, #Accesspage, #Gridpage {
+#content #Respage, #Tipspage, #Corepage, #Designpage, #Accesspage, #Gridpage  {
     margin-top: 100px;
     font-family: 'Raleway';
     float: right;
