@@ -577,7 +577,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 #content .pageInfo #vision p {
-    width: 845px;
+    width: 600px;
 }
 
 #content .pageInfo #know {
@@ -591,7 +591,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 #content .pageInfo #know p {
     font-size: 15px;
-    width: 845px;
+    width: 600px;
     color: #a6a6a6;
 }
 
@@ -602,14 +602,14 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 #content .pageInfo #using p {
     font-size: 15px;
-    width: 700px;
+    width: 600px;
     color: #a6a6a6;
 }
 
 #content .pageInfo #using ul {
     list-style: none;
     padding-left: 0px;
-    width: 750px;
+    width: 600px;
 }
 
 #content .pageInfo #using ul li {
@@ -630,7 +630,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 #content .pageInfo #system p {
     font-size: 15px;
-    width: 700px;
+    width: 600px;
     color: #a6a6a6;
 }
 
@@ -641,7 +641,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 #content .pageInfo #help p {
     font-size: 15px;
-    width: 700px;
+    width: 600px;
     color: #a6a6a6;
 }
 
