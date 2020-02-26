@@ -560,7 +560,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     margin-top: 100px;
     font-family: 'Raleway';
     float: right;
-    margin-right: 150px;
+    margin-right: 220px;
 }
 
 #content .pageInfo #vision a {
@@ -577,7 +577,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 #content .pageInfo #vision p {
-    width: 600px;
+    width: 845px;
 }
 
 #content .pageInfo #know {
@@ -591,7 +591,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 #content .pageInfo #know p {
     font-size: 15px;
-    width: 600px;
+    width: 845px;
     color: #a6a6a6;
 }
 
@@ -602,20 +602,19 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 #content .pageInfo #using p {
     font-size: 15px;
-    width: 600px;
+    width: 700px;
     color: #a6a6a6;
 }
 
 #content .pageInfo #using ul {
     list-style: none;
     padding-left: 0px;
-    width: 600px;
+    width: 750px;
 }
 
 #content .pageInfo #using ul li {
     padding: 5px 5px 5px 0px;
     line-height: 25px;
-    font-size: 14px;
 }
 
 #content .pageInfo #using a {
@@ -630,7 +629,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 #content .pageInfo #system p {
     font-size: 15px;
-    width: 600px;
+    width: 700px;
     color: #a6a6a6;
 }
 
@@ -641,10 +640,9 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 #content .pageInfo #help p {
     font-size: 15px;
-    width: 600px;
+    width: 700px;
     color: #a6a6a6;
 }
-
 
 
 /* ---------------------------------------------------
