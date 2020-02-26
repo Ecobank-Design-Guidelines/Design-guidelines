@@ -681,7 +681,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content .pageInfo #feedback ul li {
     padding: 3px 3px 3px 0px;
     line-height: 15px;
-    font-size: 14px;   
+    font-size: 15px;   
 }
 
 #content .pageInfo #secondaryContent {
@@ -694,7 +694,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 #content .pageInfo #secondaryContent p {
-    font-size: 15px;
+    font-size: 20px;
     width: 845px;
     color: #a6a6a6;
 }
@@ -730,7 +730,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 #content .pageInfo #whatsNecessary ul li {
     padding: 5px 5px 5px 0px;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 25px;
 }
 
@@ -745,7 +745,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 #content .pageInfo #prevention p {
-    font-size: 15px;
+    font-size: 20px;
     width: 700px;
     color: #a6a6a6;
 }
@@ -768,7 +768,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 #content .pageInfo #help p {
-    font-size: 15px;
+    font-size: 20px;
     width: 700px;
     color: #a6a6a6;
 }
