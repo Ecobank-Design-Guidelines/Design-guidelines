@@ -759,6 +759,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content .pageInfo #prevention ul li {
     padding: 5px 5px 5px 0px;
     line-height: 25px;   
+    font-size: 15px;
 }
 
 #content .pageInfo #help {
