@@ -670,6 +670,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 #content .pageInfo #feedback p {
     width: 845px;
+    font-size: 20px;
 }
 
 #content .pageInfo #feedback ul {
@@ -708,7 +709,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content .pageInfo #secondaryContent ul li {
     padding: 5px 5px 5px 0px;
     line-height: 25px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 #content .pageInfo #whatsNecessary {
