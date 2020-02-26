@@ -717,7 +717,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 }
 
 #content .pageInfo #whatsNecessary p {
-    font-size: 25px;
+    font-size: 20px;
     width: 700px;
     color: #a6a6a6;
 }
@@ -730,6 +730,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 
 #content .pageInfo #whatsNecessary ul li {
     padding: 5px 5px 5px 0px;
+    font-size: 10px;
     line-height: 25px;
 }
 
