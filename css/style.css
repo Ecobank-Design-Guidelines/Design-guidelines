@@ -615,6 +615,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
 #content .pageInfo #using ul li {
     padding: 5px 5px 5px 0px;
     line-height: 25px;
+    font-size: 14px;
 }
 
 #content .pageInfo #using a {
@@ -643,6 +644,7 @@ div#content div.navbar-expand-lg div#navbarSupportedContent ul li a{
     width: 700px;
     color: #a6a6a6;
 }
+
 
 
 /* ---------------------------------------------------
